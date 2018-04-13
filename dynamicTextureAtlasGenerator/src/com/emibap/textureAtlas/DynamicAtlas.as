@@ -147,8 +147,6 @@ package com.emibap.textureAtlas
 			{
 				itm = _items[i];
 				
-				trace (canvasWidth);
-				
 				if ((xPos + itm.width) > canvasWidth)
 				{
 					xPos = 0;
